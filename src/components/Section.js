@@ -23,7 +23,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backGroundImg 
           }
         </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/Down-Arrow.png" />
+        <DownArrow src="/images/Down-arrow.png" alt='arrow-icon'/>
       </Buttons>
     </Wrap >
   )
