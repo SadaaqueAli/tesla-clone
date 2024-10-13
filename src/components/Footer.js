@@ -19,15 +19,16 @@ const Footer = () => {
 
   const FooterContainer = styled.footer`
   background-color: #282c34;
-  color: white;
   padding: 20px;
   text-align: center;
-  position: relative;
+  position: fixed; /* or relative */
   bottom: 0;
   width: 100%;
+  z-index: 10;
 `;
 
 const FooterText = styled.p`
+color:#778899;
   margin: 0;
 `;
 
