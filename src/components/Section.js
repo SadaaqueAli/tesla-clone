@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade';
 
+
 function Section({ title, description, leftBtnText, rightBtnText, backGroundImg }) {
   return (
     <Wrap bgImage = {backGroundImg}>
@@ -23,7 +24,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backGroundImg 
           }
         </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/Down-arrow.png" alt='arrow-icon'/>
+        <DownArrow src="/images/down-arrow (1).svg" alt='arrow-icon'/>
       </Buttons>
     </Wrap >
   )
@@ -83,7 +84,7 @@ const RightButton = styled(LeftButton)`
 `;
 
 const DownArrow = styled.img`
-height:20px;
+height:40px;
 overflow-x:hidden;
 animation: animateDown infinite 1.5s;
 `
